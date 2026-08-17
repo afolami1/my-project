@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(160deg,#1d1f2d,#0d1d2c,#0d221c);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    color:#fff;
+}
+
+.container{
+    width:360px;
+    height:780px;
+    padding:30px 20px;
+    position:relative;
+}
+
+.back{
+    font-size:25px;
+    margin-bottom:70px;
+    cursor:pointer;
+}
+
+.logo{
+    width:90px;
+    height:90px;
+    margin:0 auto 80px;
+    border-radius:50%;
+    background:#1877f2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:60px;
+    color:#fff;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+input{
+    width:100%;
+    padding:18px;
+    background:#22313d;
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:15px;
+    color:#fff;
+    font-size:18px;
+    outline:none;
+}
+
+input::placeholder{
+    color:#8d98a5;
+}
+
+button{
+    padding:17px;
+    border:none;
+    border-radius:35px;
+    background:#1877f2;
+    color:#fff;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.forgot{
+    display:block;
+    text-align:center;
+    margin:30px 0 180px;
+    color:#fff;
+    text-decoration:none;
+    font-size:20px;
+}
+
+.create-account{
+    width:100%;
+    background:transparent;
+    border:2px solid #1877f2;
+    color:#1877f2;
+}
+
+.meta{
+    text-align:center;
+    margin-top:40px;
+    font-size:30px;
+    color:#ddd;
+}
+
+.meta span{
+    font-size:40px;
+    vertical-align:middle;
+}
